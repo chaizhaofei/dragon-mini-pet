@@ -1,0 +1,10 @@
+# Local generation workspace and backups
+work/
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*

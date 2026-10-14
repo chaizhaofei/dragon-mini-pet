@@ -1,0 +1,231 @@
+{
+  "sprite_file": "assets/spritesheet.png",
+  "sha256": "37655992282555e9971a40ca50433c7a4b36d893814153081ce839d35ebbda3e",
+  "encoded_bytes": 2623418,
+  "sprite_version": 2,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "cell_dimensions": [
+    192,
+    208
+  ],
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "required_frames": 73,
+  "unused_transparent_cells": 15,
+  "structural_validation_passed": true,
+  "pets_preflight_passed": true,
+  "quality_validation_passed": true,
+  "blind_direction_validation_passed": true,
+  "independent_blind_reviewers": 3,
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      199,
+      177,
+      165,
+      202
+    ],
+    "airborne_lift_pixels": 37,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      95.5,
+      95.5,
+      95.5,
+      96.0,
+      95.0,
+      95.0,
+      95.0,
+      96.0,
+      95.5,
+      96.0,
+      95.5,
+      95.0,
+      96.0,
+      95.0,
+      95.5,
+      96.0
+    ],
+    "look_widths": [
+      87,
+      87,
+      87,
+      86,
+      86,
+      86,
+      86,
+      86,
+      81,
+      80,
+      81,
+      80,
+      80,
+      80,
+      81,
+      80
+    ],
+    "maximum_center_drift_pixels": 1.0,
+    "maximum_width_ratio": 1.0875
+  },
+  "reviewed_warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "337.5->000 diff is a local outlier (2066 pixels vs neighbor average 1066)"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 75,
+      "sha256": "76ba38b874c9168bef3f0a91ca4739388d6397d4196d172d1a6dadd581c2c938"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 116,
+      "sha256": "a56f625eeae829b58eceead005a5d9ef22f45ab219d715347dbc3294b5e75c81"
+    },
+    {
+      "path": "assets/spritesheet-layout.json",
+      "bytes": 1582,
+      "sha256": "0ac799baef85dadc642ff060b5b3ca21617cdf19d68764e144d2d9a6b619ce4a"
+    },
+    {
+      "path": "assets/spritesheet.png",
+      "bytes": 2623418,
+      "sha256": "37655992282555e9971a40ca50433c7a4b36d893814153081ce839d35ebbda3e"
+    },
+    {
+      "path": "previews/action-stills.png",
+      "bytes": 134066,
+      "sha256": "5171c22df1a7c3f4c50a81c4a4f4d631d3058452d2ac3519df0f477f43665c7a"
+    },
+    {
+      "path": "previews/all-states.gif",
+      "bytes": 551748,
+      "sha256": "a53a4e08951fa5e20663e5c14edbca5e16f2923cd06c753fad08aef7c00f246e"
+    },
+    {
+      "path": "previews/all-states.mp4",
+      "bytes": 161730,
+      "sha256": "7b58c9469e9a6cbb14d0cd56a3a43b824902be0a973f11e34451d4afc2cf71a4"
+    },
+    {
+      "path": "previews/contact-sheet.png",
+      "bytes": 2005689,
+      "sha256": "f311d7c0d4edec30b39bfeef15df7d1487413c6c0e8e8fa9a1569946ada1872c"
+    },
+    {
+      "path": "previews/idle-jump-idle.gif",
+      "bytes": 176843,
+      "sha256": "84ba9dbb44e5e9d015c395302c8278238a67625f0bbffeba8c72ec0dea885fd7"
+    },
+    {
+      "path": "previews/look-directions.png",
+      "bytes": 687595,
+      "sha256": "a273d3520d8bb7d191b539850e477ee432a05d3159c956ef1350e87567f527ee"
+    },
+    {
+      "path": "previews/look-loop.gif",
+      "bytes": 153229,
+      "sha256": "4fb0ce3d160e0def3ff14779d843b7f71c2f304d684d8ef96b6b241139127040"
+    },
+    {
+      "path": "previews/states/failed.gif",
+      "bytes": 74814,
+      "sha256": "2665af9ef5328cf307fea4cb4512884d14fc08b499efd143cb2c562c8fbffc3c"
+    },
+    {
+      "path": "previews/states/idle.gif",
+      "bytes": 62312,
+      "sha256": "cbde118923f6e28663584157f56f35c0efc3f50e11bc0f13c283623987311087"
+    },
+    {
+      "path": "previews/states/jumping.gif",
+      "bytes": 52285,
+      "sha256": "c631ff755c42ba66ade4f0991a43d41cffe2d323898b448caf81aaed87821928"
+    },
+    {
+      "path": "previews/states/review.gif",
+      "bytes": 59645,
+      "sha256": "a509cc4f52648160e0ede2453aae90c77a7d586e2cf251144de22d285276d40d"
+    },
+    {
+      "path": "previews/states/running-left.gif",
+      "bytes": 82833,
+      "sha256": "b47bb64a63fe87cdc3108c4fcc494aef3cdf719b42b14ec5284dc1ee6a7b21c0"
+    },
+    {
+      "path": "previews/states/running-right.gif",
+      "bytes": 81838,
+      "sha256": "8bdfdce2d614f70b9835ec3480399a2e8958da30bdd997073fd50539e9b3e438"
+    },
+    {
+      "path": "previews/states/running.gif",
+      "bytes": 62388,
+      "sha256": "8776cc99231710b7e722eeba6c50b14d1591a6f94e1d677907a1d12cf89a79ed"
+    },
+    {
+      "path": "previews/states/waiting.gif",
+      "bytes": 62507,
+      "sha256": "a5a7ba60219551fde300accea107873a7d0c5fe3859a33c454c4f23cdf8a9a01"
+    },
+    {
+      "path": "previews/states/waving.gif",
+      "bytes": 44360,
+      "sha256": "580f3ac4e7df6232f204f2ec567f9154e14275c469418d8f22d450384ca227ed"
+    },
+    {
+      "path": "previews/still-idle.png",
+      "bytes": 37526,
+      "sha256": "59b9c59c664d006077d5574690e898e3327003904e76126205dca6a705c3f3b6"
+    },
+    {
+      "path": "previews/still-jumping.png",
+      "bytes": 37685,
+      "sha256": "45d059036dc49021955ebdbc748e3412b0e028b8cd4248a8763dffd270851f48"
+    },
+    {
+      "path": "previews/still-review.png",
+      "bytes": 36838,
+      "sha256": "3ad80ddf95a2814f4693e723486c5c7645bcb4c06249e9e841dec86b066f93d5"
+    },
+    {
+      "path": "previews/still-running.png",
+      "bytes": 38896,
+      "sha256": "5ac16260eb2d4b39499af4d68301d2f7ebaa854bcb54be5467a04ede67d6ba5b"
+    },
+    {
+      "path": "previews/still-waving.png",
+      "bytes": 40278,
+      "sha256": "89cf27707daaa62840552428f49d6e283dc4a2b859114ac859c51db818544f19"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2990,
+      "sha256": "3efb79a2f29a1baa4adff8c19d2e48d6ae26a8b8a323d6d01c4e7a30cae59bfe"
+    }
+  ],
+  "checksum_basis": "Git repository blob bytes; text files use committed line endings."
+}
